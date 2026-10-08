@@ -47,9 +47,13 @@ namespace Mission.Controllers
         }
 
         // GET: Produits/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-         
+            var requeteCategories = _context.Categories.ToListAsync();
+            var listeCategories = new SelectList(await requeteCategories, nameof(Categorie.Id), nameof(Categorie.Titre));
+
+            ViewBag.CategorieId = listeCategories;
+
             return View();
         }
 

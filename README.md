@@ -9,3 +9,6 @@ Il manque un [DbSet explicite](Mission2/MissionsPossibles/Data/MissionDbContext.
 
 ## Mission 3
 Le nom de la [propriétée de connection dans le JSON](Mission3/MissionsPossibles/appsettings.json) ne "match" pas celle du Program.sc
+
+## Mission 4
+Le [controlleur/action Produits/Create](Mission4/MissionsPossibles/Controllers/ProduitsController.cs) ne cree pas une SelectList
