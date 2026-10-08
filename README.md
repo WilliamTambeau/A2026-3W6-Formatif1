@@ -12,3 +12,9 @@ Le nom de la [propriétée de connection dans le JSON](Mission3/MissionsPossible
 
 ## Mission 4
 Le [controlleur/action Produits/Create](Mission4/MissionsPossibles/Controllers/ProduitsController.cs) ne cree pas une SelectList
+
+## Mission 5
+Le [View Upsert](Mission5/MissionsPossibles/Views/Categories/Upsert.cshtml) n'avais pas l'action do form correcte
+
+
+J'ai passé beaucoups trops de temps ... je pensais que j'étais dans les views Categories, mais j'étais dans Produits
