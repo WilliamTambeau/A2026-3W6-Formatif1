@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/Mission1/" />
+  <Folder Name="/Mission1/MissionsPossibles/">
+    <Project Path="Mission1/MissionsPossibles/Mission.csproj" />
+  </Folder>
+  <Folder Name="/Mission2/" />
+  <Folder Name="/Mission2/MissionsPossibles/">
+    <Project Path="Mission2/MissionsPossibles/Mission.csproj" />
+  </Folder>
+  <Folder Name="/Mission3/" />
+  <Folder Name="/Mission3/MissionsPossibles/">
+    <Project Path="Mission3/MissionsPossibles/Mission.csproj" />
+  </Folder>
+  <Folder Name="/Mission4/" />
+  <Folder Name="/Mission4/MissionsPossibles/">
+    <Project Path="Mission4/MissionsPossibles/Mission.csproj" />
+  </Folder>
+  <Folder Name="/Mission5/" />
+  <Folder Name="/Mission5/MissionsPossibles/">
+    <Project Path="Mission5/MissionsPossibles/Mission.csproj" />
+  </Folder>
+  <Folder Name="/Mission6/" />
+  <Folder Name="/Mission6/MissionsPossibles/">
+    <Project Path="Mission6/MissionsPossibles/Mission.csproj" />
+  </Folder>
+</Solution>
