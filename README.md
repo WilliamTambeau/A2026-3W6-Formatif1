@@ -18,3 +18,8 @@ Le [View Upsert](Mission5/MissionsPossibles/Views/Categories/Upsert.cshtml) n'av
 
 
 J'ai passé beaucoups trops de temps ... je pensais que j'étais dans les views Categories, mais j'étais dans Produits
+
+## Mission 6
+- Les forms dans [Create](Mission6/MissionsPossibles/Views/Produits/Create.cshtml) et [Edit](Mission6/MissionsPossibles/Views/Produits/Edit.cshtml) avaient des accesseurs pour si le model etais Produits, au lieu de Produit_VM
+
+- Il manque des `[ValidateNever]` dans les modeles [Produit](Mission6/MissionsPossibles/Models/Produit.cs) et [Produit_VM](Mission6/MissionsPossibles/ViewModels/Produit_VM.cs) (... ben, je pense que Produit_VM as pas besoins de `[ValidateNever]`)
